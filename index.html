@@ -14,548 +14,333 @@
   </head>
 
   <body>
-    <!-- SECCION I N I C I O -->
-    <section id="inicio">
-      <div class="contenido">
-        <header>
-          <div class="contenido-header">
-            <a href="https://www.lourdesmolinaaraoz.store/"><p id="logo">&lt;lourdes_molina&gt;</p></a>
-            <nav id="nav" class="">
-              <ul id="links">
-                <li>
-                  <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a>
-                </li>
-                <li>
-                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
-                </li>
-                <li>
-                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
-                </li>
-                <li>
-                  <a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a>
-                </li>
-                <li>
-                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
-                </li>
-              </ul>
-            </nav>
-            <div id="icono-nav" onclick="responsiveMenu()">
-              <i class="fa-solid fa-bars"></i>
+  
+    <!-- header -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./img/logo.png" alt="" width="200px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Me</a></li>
+                                        <li><a href="#"> My Services</a></li>
+                                        <li><a href="#"> My Portfolio</a></li>
+                                        <li><a href="contact.html">Contact me</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="redes">
-              <a rel="noopener" href="https://www.youtube.com/@mariomolinaaraoz7895" target="_blank" title="Youtube Channel"><i class="fa-brands fa-youtube"></i></a>
-              <a rel="noopener" href="https://github.com/mariomolinaaraoz" target="_blank" title="GitHub repository"><i class="fa-brands fa-github"></i></a>
-              <a rel="noopener" href="https://www.instagram.com/mariomolinaaraoz/" target="_blank" title="Instragam"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- slider -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="shap_pattern d-none d-lg-block">
+                <img src="img/about/grid.png" alt="">
             </div>
-          </div>
-           
-        </header>
-        <div class="presentacion">
-          <a href="#portfolio">Ir a Portafolio</a>
+            <div class="social_links">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/lourdes-molina-araoz/"> <i class="fa fa-linkedin"></i> </a></li>
+                    <li><a href="https://github.com/lourdesmolinaaraoz"> <i class="fa fa-github"></i> </a></li>
+                    <li><a href="https://www.behance.net/lourdesmolinaaraoz"> <i class="fa fa-behance"></i> </a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center">
+                            <h3>
+                                Hi, I'm Lourdes
+                            </h3>
+                            <span>Web Developer / Diseño UX/UI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </div>
+    <!-- slider-->
 
-    <!-- SECCION S O B R E M I -->
-    <section id="sobremi" class="headline load-hidden">
-      <div class="contenedor-foto">
-        <img src="./img/tinker1.png" alt="" />
-      </div>
-      <div class="sobremi">
-        <p class="titulo-seccion">About Me</p>
-        <h2> Hi! I'm <span>Lourdes Molina</span></h2>
-        <h3>Desarrolladora Web y Diseñadora UX/UI</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, necessitatibus perspiciatis eaque est, soluta repellat velit repellendus nobis magni, vel tempore placeat. Distinctio perspiciatis doloribus rem fuga fugit rerum enim? 💕🌏
-        </p>
-        <a
-          href=""
-          download="GFG"
-          target="_blank"
-          title="Curriculum"
-          >Descargar CV</a
-        >
-      </div>
-    </section>
 
-    <!-- SECCION S E R V I C I O S -->
-    <section id="servicios">
-      <h3 class="titulo-seccion">
-        My services</h3>
-      <div class="fila">
-        <div class="servicio">
-          <h4>
-            Website Development</h4>
-          <hr />
-          <img src="./assets/img/Coding _Monochromatic.svg" alt="web" style="height: auto; width: 100%;"  />
+     <!-- about_me  -->
+     <div class="about_me">
+        <div class="about_large_title d-none d-lg-block">
+                About Me 
         </div>
-        <div class="servicio">
-          <h4>Design UX/UI</h4>
-          <hr />
-          <img src="./assets/img/UI design _Isometric.svg" alt="web" style="height: auto; width: 100%;"  />
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_e_details">
+                        <h3>About me</h3>
+                        <h2> Hello World! 
+                            I'm Lourdes Molina, Full stack Programmer and Design lover, I send you to know me a little more.</h>
+                        <div class="download_cv">
+                            <a class="boxed-btn3" href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_img">
+                        <div class="color_pattern d-none d-lg-block">
+                            <img src="img/about/color_grid.png" alt="">
+                        </div>
+                        <div class="my_Pic">
+                                <img src="img/about/About.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="servicio">
-          <span class="icono"></span>
-          <h4></h4>
-          <h4>Graphic design</h4>
-          <hr />
-          <img src="./assets/img/Designer _Flatline.svg" alt="web" style="height: auto; width: 100%;"  />  
-        </div>
-      </div>
-      <div class="fila">
-        <div class="servicio">
-          <span class="icono"></span>
-          <h4>Digital marketing</h4>
-          <hr />
-          <img src="./assets/img/Marketing _Monochromatic.svg" alt="web" style="height: auto; width: 100%;"  />
-        </div>
-        <div class="servicio">
-          <span class="icono"></i></span>
-          <h4>Content creation</h4>
-          <hr />
-          <img src="./assets/img/_Digital content_Isometric.svg" alt="web" style="height: auto; width: 100%;"  />     
-        </div>
-        <div class="servicio">
-          <span class="icono"
-          ></span>
-          <h4>Virtual assistant</h4>
-          <hr />
-          <img src="./assets/img/Sending emails_Monochromatic.svg" alt="web" style="height: auto; width: 100%;"  />
-        </div>
-      </div>
-    </section>
+    </div>
+    <!--/ about_me  -->
 
-    <!-- SECCION H A B I L I D A D E S -->
-    <section id="skills">
-      <div class="contenedor-skills">      
-        <h3 class="titulo-seccion">Skills</h3>
-        <section class="skill">
-          <div id="javascript">
-            <h4>JavaScript</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
-              ></path>
-            </svg>
-          </div>
-          <div id="Bootstrap" class="mx-4 mb-8 flex flex-col items-center">
-            <h4 class="">Bootstrap</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <svg width="25px" height="25px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-                <g>
-                    <path d="M0,222.991225 C0,241.223474 14.7785318,256 33.0087747,256 L222.991225,256 C241.223474,256 256,241.221468 256,222.991225 L256,33.0087747 C256,14.7765263 241.221468,0 222.991225,0 L33.0087747,0 C14.7765263,0 0,14.7785318 0,33.0087747 L0,222.991225 Z" fill="#563D7C"></path>
-                    <path d="M106.157563,113.238095 L106.157563,76.9845938 L138.069328,76.9845938 C141.108559,76.9845938 144.039202,77.2378593 146.861345,77.7443978 C149.683488,78.2509362 152.179961,79.1554557 154.35084,80.4579832 C156.52172,81.7605107 158.258397,83.5695496 159.560924,85.8851541 C160.863452,88.2007585 161.514706,91.1675823 161.514706,94.7857143 C161.514706,101.298352 159.560944,106.001853 155.653361,108.896359 C151.745779,111.790864 146.752832,113.238095 140.67437,113.238095 L106.157563,113.238095 L106.157563,113.238095 Z M72.07493,50.5 L72.07493,205.5 L147.186975,205.5 C154.133788,205.5 160.899594,204.631661 167.484594,202.894958 C174.069594,201.158255 179.93088,198.480877 185.068627,194.862745 C190.206375,191.244613 194.294803,186.577293 197.334034,180.860644 C200.373264,175.143996 201.892857,168.37819 201.892857,160.563025 C201.892857,150.866431 199.541107,142.581033 194.837535,135.706583 C190.133963,128.832132 183.00635,124.020088 173.454482,121.270308 C180.401295,117.941627 185.647508,113.672295 189.193277,108.462185 C192.739047,103.252075 194.511905,96.7395349 194.511905,88.9243697 C194.511905,81.6881057 193.317939,75.6097352 190.929972,70.6890756 C188.542005,65.7684161 185.177193,61.8247114 180.835434,58.8578431 C176.493676,55.8909749 171.283644,53.756309 165.205182,52.4537815 C159.12672,51.151254 152.397096,50.5 145.016106,50.5 L72.07493,50.5 L72.07493,50.5 Z M106.157563,179.015406 L106.157563,136.466387 L143.279412,136.466387 C150.660401,136.466387 156.594049,138.166883 161.080532,141.567927 C165.567016,144.968971 167.810224,150.649353 167.810224,158.609244 C167.810224,162.661552 167.122789,165.990183 165.747899,168.595238 C164.373009,171.200293 162.527789,173.262597 160.212185,174.782213 C157.89658,176.301828 155.219203,177.387252 152.179972,178.038515 C149.140741,178.689779 145.956833,179.015406 142.628151,179.015406 L106.157563,179.015406 L106.157563,179.015406 Z" fill="#FFFFFF"></path>
-                </g>
-            </svg>
-            
-          </div>
-          <div id="react">
-            <h4 class="">React</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M12 9.861A2.139 2.139 0 1 0 12 14.139 2.139 2.139 0 1 0 12 9.861zM6.008 16.255l-.472-.12C2.018 15.246 0 13.737 0 11.996s2.018-3.25 5.536-4.139l.472-.119.133.468a23.53 23.53 0 0 0 1.363 3.578l.101.213-.101.213a23.307 23.307 0 0 0-1.363 3.578l-.133.467zM5.317 8.95c-2.674.751-4.315 1.9-4.315 3.046 0 1.145 1.641 2.294 4.315 3.046a24.95 24.95 0 0 1 1.182-3.046A24.752 24.752 0 0 1 5.317 8.95zM17.992 16.255l-.133-.469a23.357 23.357 0 0 0-1.364-3.577l-.101-.213.101-.213a23.42 23.42 0 0 0 1.364-3.578l.133-.468.473.119c3.517.889 5.535 2.398 5.535 4.14s-2.018 3.25-5.535 4.139l-.473.12zm-.491-4.259c.48 1.039.877 2.06 1.182 3.046 2.675-.752 4.315-1.901 4.315-3.046 0-1.146-1.641-2.294-4.315-3.046a24.788 24.788 0 0 1-1.182 3.046zM5.31 8.945l-.133-.467C4.188 4.992 4.488 2.494 6 1.622c1.483-.856 3.864.155 6.359 2.716l.34.349-.34.349a23.552 23.552 0 0 0-2.422 2.967l-.135.193-.235.02a23.657 23.657 0 0 0-3.785.61l-.472.119zm1.896-6.63c-.268 0-.505.058-.705.173-.994.573-1.17 2.565-.485 5.253a25.122 25.122 0 0 1 3.233-.501 24.847 24.847 0 0 1 2.052-2.544c-1.56-1.519-3.037-2.381-4.095-2.381zM16.795 22.677c-.001 0-.001 0 0 0-1.425 0-3.255-1.073-5.154-3.023l-.34-.349.34-.349a23.53 23.53 0 0 0 2.421-2.968l.135-.193.234-.02a23.63 23.63 0 0 0 3.787-.609l.472-.119.134.468c.987 3.484.688 5.983-.824 6.854a2.38 2.38 0 0 1-1.205.308zm-4.096-3.381c1.56 1.519 3.037 2.381 4.095 2.381h.001c.267 0 .505-.058.704-.173.994-.573 1.171-2.566.485-5.254a25.02 25.02 0 0 1-3.234.501 24.674 24.674 0 0 1-2.051 2.545zM18.69 8.945l-.472-.119a23.479 23.479 0 0 0-3.787-.61l-.234-.02-.135-.193a23.414 23.414 0 0 0-2.421-2.967l-.34-.349.34-.349C14.135 1.778 16.515.767 18 1.622c1.512.872 1.812 3.37.824 6.855l-.134.468zM14.75 7.24c1.142.104 2.227.273 3.234.501.686-2.688.509-4.68-.485-5.253-.988-.571-2.845.304-4.8 2.208A24.849 24.849 0 0 1 14.75 7.24zM7.206 22.677A2.38 2.38 0 0 1 6 22.369c-1.512-.871-1.812-3.369-.823-6.854l.132-.468.472.119c1.155.291 2.429.496 3.785.609l.235.02.134.193a23.596 23.596 0 0 0 2.422 2.968l.34.349-.34.349c-1.898 1.95-3.728 3.023-5.151 3.023zm-1.19-6.427c-.686 2.688-.509 4.681.485 5.254.987.563 2.843-.305 4.8-2.208a24.998 24.998 0 0 1-2.052-2.545 24.976 24.976 0 0 1-3.233-.501zM12 16.878c-.823 0-1.669-.036-2.516-.106l-.235-.02-.135-.193a30.388 30.388 0 0 1-1.35-2.122 30.354 30.354 0 0 1-1.166-2.228l-.1-.213.1-.213a30.3 30.3 0 0 1 1.166-2.228c.414-.716.869-1.43 1.35-2.122l.135-.193.235-.02a29.785 29.785 0 0 1 5.033 0l.234.02.134.193a30.006 30.006 0 0 1 2.517 4.35l.101.213-.101.213a29.6 29.6 0 0 1-2.517 4.35l-.134.193-.234.02c-.847.07-1.694.106-2.517.106zm-2.197-1.084c1.48.111 2.914.111 4.395 0a29.006 29.006 0 0 0 2.196-3.798 28.585 28.585 0 0 0-2.197-3.798 29.031 29.031 0 0 0-4.394 0 28.477 28.477 0 0 0-2.197 3.798 29.114 29.114 0 0 0 2.197 3.798z"
-              ></path>
-            </svg>
-          </div>
-          <div id="photoshop">
-            <h4 class="">Photoshop</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-            <svg width="25px" height="25px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z" fill="#2F88FF" stroke="black" stroke-width="4"/>
-              <path d="M14 15V33" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M16 25C19 25 23 24.2 23 20C23 15.8 19 15 16 15H14V25H16Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M34 21.0246C33 21.0246 28 20.5266 28 24.0123C28 27.4979 34 26.5021 34 29.9877C34 33.4734 28 32.9754 28 32.9754" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-          </div>
-          <div id="After Effects">
-            <h4 class="">After Effects</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	            viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
-              <g>
-              <path style="fill:#3A3375;" d="M40.824,52H11.176C5.003,52,0,46.997,0,40.824V11.176C0,5.003,5.003,0,11.176,0h29.649
-                C46.997,0,52,5.003,52,11.176v29.649C52,46.997,46.997,52,40.824,52z"/>
-              <g>
-                <path style="fill:#E7ADFB;" d="M27.44,39H24.2l-2.76-9.04h-8.32L10.48,39H7.36l8.24-28h3.32L27.44,39z M20.72,27l-3.48-11.36
-                  L13.88,27H20.72z"/>
-                <path style="fill:#E7ADFB;" d="M31.48,33.48c0,2.267,1.333,3.399,4,3.399c1.653,0,3.466-0.546,5.44-1.64L42,37.6
-                  c-2.054,1.254-4.2,1.881-6.44,1.881c-4.64,0-6.96-1.946-6.96-5.841V25.44c0-2.16,0.673-3.841,2.02-5.04
-                  c1.346-1.2,3.126-1.801,5.34-1.801s3.94,0.594,5.18,1.78c1.24,1.187,1.86,2.834,1.86,4.94V30.8L31.48,31.4V33.48z M40.08,28.24
-                  v-3.08c0-1.413-0.44-2.42-1.32-3.021c-0.88-0.6-1.907-0.899-3.08-0.899c-1.174,0-2.167,0.359-2.98,1.08
-                  c-0.814,0.72-1.22,1.773-1.22,3.16v3.199L40.08,28.24z"/>
-              </g>
-              </g>
-              </svg>
-          </div>
-          <div id="git">
-            <h4 class="">Git</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"
-              ></path>
-            </svg>
-          </div>
-          <div id="github">
-            <h4 class="">GitHub</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-              ></path>
-            </svg>
-          </div>
-          <div id="figma">
-            <h4 class="">Figma</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fill-rule="evenodd" transform="translate(4)">
-                  <circle cx="12" cy="12" r="4" fill="#19BCFE"/>
-                  <path fill="#09CF83" d="M4,24 C6.209139,24 8,22.209139 8,20 C8,19.3969461 8,18.0636128 8,16 C6.20303877,16 4.86970543,16 4,16 C1.790861,16 0,17.790861 0,20 C0,22.209139 1.790861,24 4,24 Z"/>
-                  <path fill="#A259FF" d="M4,16 C4.73637967,16 6.069713,16 8,16 L8,8 C6.069713,8 4.73637967,8 4,8 C1.790861,8 0,9.790861 0,12 C0,14.209139 1.790861,16 4,16 Z"/>
-                  <path fill="#F24E1E" d="M4,8 C4.73637967,8 6.069713,8 8,8 L8,0 C6.069713,0 4.73637967,0 4,0 C1.790861,0 0,1.790861 0,4 C0,6.209139 1.790861,8 4,8 Z"/>
-                  <path fill="#FF7262" d="M12,8 L8,8 L8,8 L8,0 L12,0 L12,0 C14.209139,0 16,1.790861 16,4 C16,6.209139 14.209139,8 12,8 Z"/>
-                </g>
-              </svg>
-          </div>
-          <div id="sass">
-            <h4 class="">Sass</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM9.615 15.998c.175.645.156 1.248-.024 1.792l-.065.18c-.024.061-.052.12-.078.176-.14.29-.326.56-.555.81-.698.759-1.672 1.047-2.09.805-.45-.262-.226-1.335.584-2.19.871-.918 2.12-1.509 2.12-1.509v-.003l.108-.061zm9.911-10.861c-.542-2.133-4.077-2.834-7.422-1.645-1.989.707-4.144 1.818-5.693 3.267C4.568 8.48 4.275 9.98 4.396 10.607c.427 2.211 3.457 3.657 4.703 4.73v.006c-.367.18-3.056 1.529-3.686 2.925-.675 1.47.105 2.521.615 2.655 1.575.436 3.195-.36 4.065-1.649.84-1.261.766-2.881.404-3.676.496-.135 1.08-.195 1.83-.104 2.101.24 2.521 1.56 2.43 2.1-.09.539-.523.854-.674.944-.15.091-.195.12-.181.181.015.09.091.09.21.075.165-.03 1.096-.45 1.141-1.471.045-1.29-1.186-2.729-3.375-2.7-.9.016-1.471.091-1.875.256-.03-.045-.061-.075-.105-.105-1.35-1.455-3.855-2.475-3.75-4.41.03-.705.285-2.564 4.8-4.814 3.705-1.846 6.661-1.335 7.171-.21.733 1.604-1.576 4.59-5.431 5.024-1.47.165-2.235-.404-2.431-.615-.209-.225-.239-.24-.314-.194-.12.06-.045.255 0 .375.12.3.585.825 1.396 1.095.704.225 2.43.359 4.5-.45 2.324-.899 4.139-3.405 3.614-5.505l.073.067z"
-              ></path>
-            </svg>
-          </div>
-          <div id="AdobeIlustrator">
-            <h4 class="">Adobe Ilustrator</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                <path style="fill:#FFDA44;" d="M10.199,10.199v491.602h491.602V10.199H10.199z M451.877,60.123v391.752H60.123V60.123H451.877z"/>
-                <path style="fill:#FFA312;" d="M501.801,512H10.199C4.567,512,0,507.434,0,501.801V10.199C0,4.566,4.567,0,10.199,0h491.602
-                  C507.433,0,512,4.566,512,10.199v491.602C512,507.434,507.433,512,501.801,512z M20.398,491.602h471.203V20.398H20.398V491.602z
-                  M451.877,462.075H60.123c-5.632,0-10.199-4.566-10.199-10.199V60.123c0-5.633,4.567-10.199,10.199-10.199h391.753
-                  c5.632,0,10.199,4.566,10.199,10.199v391.752C462.076,457.509,457.509,462.075,451.877,462.075z M70.322,441.676h371.355V70.322
-                  H70.322V441.676z"/>
-                <path style="fill:#FFDA44;" d="M179.541,318.557h67.725l18.302,60.693h57.488l-73.374-236.674h-70.14l-72.45,236.673h55.495
-                  L179.541,318.557z M212.113,182.552h0.684c3.481,14.165,26.782,95.885,26.782,95.885h-52.386
-                  C187.193,278.437,208.592,196.717,212.113,182.552L212.113,182.552z"/>
-                <path style="fill:#FFA312;" d="M323.055,389.448h-57.487c-4.499,0-8.466-2.948-9.765-7.255l-16.115-53.439h-52.407l-14.872,53.238
-                  c-1.231,4.407-5.247,7.456-9.823,7.456h-55.495c-3.234,0-6.277-1.534-8.2-4.134c-1.924-2.6-2.499-5.958-1.551-9.051l72.448-236.674
-                  c1.313-4.287,5.27-7.214,9.754-7.214h70.141c4.469,0,8.418,2.91,9.742,7.179l73.373,236.674c0.959,3.095,0.392,6.462-1.532,9.071
-                  C329.342,387.908,326.295,389.448,323.055,389.448z M273.145,369.05h36.07l-67.05-216.275h-55.081L120.881,369.05h33.965
-                  l14.872-53.238c1.231-4.407,5.247-7.456,9.823-7.456h67.724c4.499,0,8.466,2.948,9.765,7.255L273.145,369.05z M239.579,288.636
-                  h-52.386c-3.161,0-6.142-1.466-8.074-3.968c-1.932-2.502-2.594-5.758-1.793-8.816c0.214-0.817,21.423-81.82,24.888-95.761
-                  c1.13-4.547,5.213-7.738,9.898-7.738h0.683c4.696,0,8.784,3.206,9.904,7.765c3.397,13.822,26.455,94.707,26.687,95.522
-                  c0.876,3.077,0.26,6.387-1.669,8.941C245.793,287.135,242.779,288.636,239.579,288.636z M200.404,268.238h25.669
-                  c-3.425-12.059-8.664-30.549-13.341-47.248C208.383,237.713,203.544,256.228,200.404,268.238z"/>
-                <rect x="351.658" y="221.894" style="fill:#FFDA44;" width="53.454" height="157.363"/>
-                <path style="fill:#FFA312;" d="M405.116,389.449h-53.454c-5.632,0-10.199-4.566-10.199-10.199V221.889
-                  c0-5.633,4.567-10.199,10.199-10.199h53.454c5.632,0,10.199,4.566,10.199,10.199v157.362
-                  C415.316,384.883,410.749,389.449,405.116,389.449z M361.862,369.051h33.056V232.088h-33.056V369.051z"/>
-                <path style="fill:#FFDA44;" d="M378.062,186.485c17.647,0,28.815-11.997,28.815-26.676c-0.412-15.479-11.168-27.06-28.398-27.06
-                  c-17.235,0-28.539,11.58-28.16,27.06C349.94,174.489,361.245,186.485,378.062,186.485L378.062,186.485z"/>
-                <path style="fill:#FFA312;" d="M378.062,196.685c-10.958,0-20.881-3.988-27.938-11.229c-6.645-6.818-10.193-15.918-10.007-25.65
-                  c-0.184-10.023,3.358-19.268,9.983-26.058c7.045-7.219,17.123-11.195,28.378-11.195c22.142,0,38.013,15.209,38.593,36.986
-                  c0.003,0.09,0.004,0.181,0.004,0.271C417.076,180.832,400.303,196.685,378.062,196.685z M378.479,142.95
-                  c-5.795,0-10.56,1.743-13.779,5.042c-2.852,2.922-4.299,6.922-4.186,11.567c0.004,0.17,0.004,0.342,0,0.512
-                  c-0.11,4.283,1.387,8.241,4.218,11.146c3.185,3.269,7.919,5.068,13.328,5.068c11.085,0,18.548-6.561,18.616-16.343
-                  C396.339,149.457,389.377,142.95,378.479,142.95z"/>
-                </svg>
-          </div>
-          <div id="angular">
-            <h4 class="">Angular</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <svg width="25px" height="25px" viewBox="-8 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-                <g>
-                  <path d="M0.0996108949,45.522179 L125.908171,0.697276265 L255.103502,44.7252918 L234.185214,211.175097 L125.908171,271.140856 L19.3245136,211.971984 L0.0996108949,45.522179 Z" fill="#E23237"></path>
-                  <path d="M255.103502,44.7252918 L125.908171,0.697276265 L125.908171,271.140856 L234.185214,211.274708 L255.103502,44.7252918 L255.103502,44.7252918 Z" fill="#B52E31"></path>
-                  <path d="M126.107393,32.27393 L126.107393,32.27393 L47.7136187,206.692607 L76.9992218,206.194553 L92.7377432,166.848249 L126.207004,166.848249 L126.306615,166.848249 L163.063035,166.848249 L180.29572,206.692607 L208.286381,207.190661 L126.107393,32.27393 L126.107393,32.27393 Z M126.306615,88.155642 L152.803113,143.5393 L127.402335,143.5393 L126.107393,143.5393 L102.997665,143.5393 L126.306615,88.155642 L126.306615,88.155642 Z" fill="#FFFFFF"></path>
-                </g>
-              </svg>
-          </div>
-          <div id="html5">
-            <h4 class="">HTML5</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
-              ></path>
-            </svg>
-          </div>
-          <div id="css">
-            <h4 class="">CSS</h4>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="4em"
-              width="4em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path
-                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
-              ></path>
-            </svg>
-          </div>
-        </section>
-      </div>
-    </section>
+    <!-- service -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-65">
+                        <span> My services</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio1.png" alt="" width="40%">
+                        </div>
+                        <h3>Web development</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio2.png" alt="" width="40%">
+                        </div>
+                        <h3>UX/UI design</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio3.png" alt="" width="40%">
+                        </div>
+                        <h3>Graphic design</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio4.png" alt="" width="40%">
+                        </div>
+                        <h3>Digital marketing</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio5.png" alt="" width="40%">
+                        </div>
+                        <h3>Content Creator</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/Servicios/Servicio6.png" alt="" width="40%">
+                        </div>
+                        <h3>Virtual assistant</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ service  -->
 
-    <!-- SECCION PORTAFOLIO -->
-    <section id="portfolio" class="headline load-hidden">
-      <h3 class="titulo-seccion">My projects</h3>
-      <div class="fila">
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <a title="primer proyecto" href="https://lourdesmolinaaraoz.com.ar/"><img src="./img/work7.jpg" alt="portfolio" /></a>
-          <div class="info">
-            <h4>Website</h4>
-            <p>First personal website.</p>
-          </div>
+    <!-- portfolio -->
+    <div class="portfolio_area portfolio_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title white_text text-center">
+                        <span> My Portfolio</span>
+                        <h3>some of my projects<br></h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <a title="boutique" href="https://lourdesmolinaaraoz.github.io/websiteboutique-2022/"><img src="./img/work1.jpg" alt="boutique" /></a>
-          <div class="info">
-            <h4>Boutique website</h4>
-            <p>Website designed with Bootstrap.</p>
-          </div>
-        </div>
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <a title="PORTFOLIO" href="https://lourdesmolinaaraoz.github.io/website-bootstrap-whith-sass/"><img src="./img/WORK2.png" alt="PORTFOLIO" /></a>
-          <div class="info">
-            <h4>Portfolio</h4>
-            <p>Website-bootstrap-whith-sass.</p>
-          </div>
-        </div>
-      </div>
-      <div class="fila">
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <a title="PORTFOLIO" href="https://www.cintiavides.com.ar/"><img src="./img/proyecto2.jpg" alt="PORTFOLIO" /></a>
-          <div class="info">
-            <h4>Recipe app</h4>
-            <p>Web page designed with react js and backend application.</p>
-          </div>
-        </div>
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <a title="PORTFOLIO" href="https://lourdesmolinaaraoz.github.io/first-portfolio/"><img src="./img/work4.jpg" alt="PORTFOLIO" /></a>
-          <div class="info">
-            <h4>Portfolio</h4>
-            <p>website</p>
-          </div>
-        </div>
-        <div class="proyecto">
-          <div class="overlay"></div>
-          <img src="./img/proyecto4.jpg" alt="" />
-          <div class="info">
-            <h4>Technical Documentation Page</h4>
-            <p>For document information.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+    <!--/ portfolio -->
 
-    <!-- SECCTION Talent -->
+    <!-- portfolio_image -->
+    <div class="portfolio_image_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-md-5">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/1.png" alt="">
+                        </div>
+                        <a href="img/portfolio/1.png" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>Web Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/2.png" alt="">
+                        </div>
+                        <a href="img/portfolio/2.png" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>Web Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/3.png" alt="">
+                        </div>
+                        <a href="img/portfolio/3.png" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>UX design with IA</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/4.png" alt="">
+                        </div>
+                        <a href="img/portfolio/4.png" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>Web Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-lg-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/5.png" alt="">
+                        </div>
+                        <a href="img/portfolio/5.png" class="popup popup-image"></a>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                    <h3>UX design with IA</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ portfolio_image  -->
 
-    <section id="talent">
-      <h1></h1>
-      <div class="talent">
-        <a title="primer proyecto" href="""><img src="./img/LOURDES_MOLINA_ARAOZ__2_-removebg-preview.png" alt="talent" /></a>
-      </div>
-    <!-- SECCTION C O N T A C T O -->
-    <section id="contacto">
-      <h4 class="titulo-seccion">Contact me</h4>
-      <div class="contenedor-form">
-        <form id="form_contact">
-          <div class="fila mitad">
-            <input
-              type="text"
-              name="from_name" id="from_name"
-              placeholder="Nombre Completo *"
-              class="input-mitad"
-            />
-            <input
-              type="email"
-              name="email" id="email"
-              placeholder="Dirección de Email"
-              class="input-mitad"
-            />
-          </div>
-          <div class="fila">
-            <textarea
-              name="message" id="message"
-              cols="30"
-              rows="10"
-              placeholder="Tu Mensaje..."
-              class="input-full"
-            ></textarea>
-          </div>
+   
 
-          <input type="submit" id="button_form_contact" value="Enviar Mensaje" class="btn-enviar" />
-        </form>
-      </div>
-    </section>
-
-    <!-- SECCION FOOTER -->
-    <footer>
-      <p>Hecho con ❤️</p>
-      <p>Lourdes Molina Araoz</p>
-      <p id="copyright">Todos los derechos reservados - 2023</p>
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/lourdes-molina-araoz/"> <i class="fa fa-linkedin"></i> </a></li>
+                                <li><a href="https://github.com/lourdesmolinaaraoz"> <i class="fa fa-github"></i> </a></li>
+                                <li><a href="https://www.behance.net/lourdesmolinaaraoz"> <i class="fa fa-behance"></i> </a></li>
+                                <li><a href="lu.molina.3015@gmail.com"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <h1>Hecho con ❤️©LourdesMolina2023. All right reserved</h1>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <!--/ footer end  -->
 
-    <script src="script.js"></script>
-    <script>ScrollReveal().reveal('.headline',{delay:400});</script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript"> emailjs.init('TxBydyoMa4SKLDCsH')</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
+  <!-- JS here -->
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/scrollIt.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/gijgo.min.js"></script>
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+  <!--contact js-->
+  <script src="js/contact.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail-script.js"></script>
 
-          // Store hash
-          var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    </script>
-  </body>
+    <script src="js/main.js"></script>
+</body>
 </html>
