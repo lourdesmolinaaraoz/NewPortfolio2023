@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@angular/flex-layout": "^15.0.0-beta.42",
+    "bootstrap": "^5.2.3",
+    "node": "^20.1.0"
+  }
+}
